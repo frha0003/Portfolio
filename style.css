@@ -1,0 +1,32 @@
+html {
+  background-color: #ece6d6;
+}
+h1 {
+  color: #7a0909;
+  font-family: "Yeseva One", serif;
+  font-size: 4rem;
+  margin-left: 5%;
+}
+h2 {
+  color: #7a0909;
+  font-family: "Yeseva One", serif;
+  font-size: 1.5rem;
+}
+
+.om_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5%;
+  margin-left: 5%;
+  background-image: url(img/ramme.png);
+  background-repeat: no-repeat;
+  background-size: 43%;
+}
+
+.tekst {
+  margin-left: 8%;
+  top: 20%;
+  margin-right: 15%;
+  position: relative;
+  line-height: 1.5;
+}
