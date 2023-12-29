@@ -10,7 +10,7 @@ h1 {
 h2 {
   color: #7a0909;
   font-family: "Yeseva One", serif;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 .om_grid {
@@ -29,4 +29,109 @@ h2 {
   margin-right: 15%;
   position: relative;
   line-height: 1.5;
+}
+
+.forside {
+  left: 12%;
+  position: relative;
+}
+/*****Portfolio******/
+
+.portfolio_1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+}
+
+.portfolio_1 :hover {
+  color: #d36c08;
+}
+
+/*****Menu******/
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 30px;
+  font-family: "Yeseva One", serif;
+  font-size: 1.2rem;
+}
+
+.logo img {
+  width: 80px;
+}
+
+nav {
+  display: flex;
+  align-items: flex-end;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  margin-right: 20px;
+}
+
+.menu a {
+  display: block;
+  padding: 10px;
+  color: #7a0909;
+  text-decoration: none;
+  transition: color 0.3s;
+  text-align: end;
+}
+
+.menu a:hover {
+  color: #d36c08;
+}
+
+.burger {
+  width: 30px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.burger .line {
+  width: 100%;
+  height: 2px;
+  background-color: #7a0909;
+  margin-bottom: 5px;
+  transition: 0.2s linear;
+}
+.burger {
+  display: none;
+}
+@media screen and (max-width: 800px) {
+  .menu {
+    display: none;
+  }
+  .burger {
+    display: block;
+  }
+}
+
+/********* footer ********/
+footer {
+  padding-top: 3rem;
+}
+
+.grid_footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.footer_logo {
+  margin-left: 15%;
+  margin-right: auto;
+}
+
+ul {
+  list-style-type: none;
+  font-family: "Yeseva One", serif;
 }
