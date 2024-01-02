@@ -14,6 +14,23 @@ h2 {
   font-size: 1.2rem;
 }
 
+/*****FORSIDE********/
+.forside {
+  left: 12%;
+  position: relative;
+}
+
+.forside_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+  margin-top: 10%;
+}
+
+.forside_grid :hover {
+  color: #d36c08;
+}
+
 .om_grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -24,6 +41,7 @@ h2 {
   background-size: 42%;
 }
 
+/****UX****/
 .tekst_ux {
   margin-left: 8%;
   top: 20%;
@@ -35,7 +53,6 @@ h2 {
 .ux_grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 2%;
   margin-left: 9%;
 }
 
@@ -47,10 +64,30 @@ h2 {
   line-height: 1.8;
 }
 
-.forside {
-  left: 12%;
+/****WEB***/
+
+.tekst_web {
+  margin-left: 5%;
+  top: 9%;
+  margin-right: 15%;
+  position: relative;
+  line-height: 2;
+  margin-bottom: 25%;
+}
+
+.web_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-left: 9%;
+}
+
+.link_web {
+  color: #7a0909;
+  font-family: "Amiri", serif;
+  font-size: 1.2rem;
   position: relative;
 }
+
 /*****Portfolio******/
 
 .portfolio_1 {
@@ -61,6 +98,69 @@ h2 {
 
 .portfolio_1 :hover {
   color: #d36c08;
+}
+
+/********ANIMATION********/
+
+.animation_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-left: 20%;
+  margin-right: 10%;
+  margin-top: 5%;
+}
+
+.forside_04 {
+  margin-left: 20%;
+}
+
+.animation_tekst {
+  margin-left: 4%;
+  top: 1%;
+  margin-right: 15%;
+  position: relative;
+  line-height: 2;
+  margin-bottom: 25%;
+}
+
+/*****INDHOLD****/
+
+.indhold {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+  margin-bottom: 8%;
+}
+
+.video_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2%;
+  margin-left: 8%;
+  margin-bottom: 15%;
+}
+
+.video_tekst {
+  margin-right: 20%;
+}
+
+.link_video :hover,
+.link_web :hover,
+.link_animation :hover,
+.link_sesam :hover {
+  color: #d36c08;
+}
+
+.sesam_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-left: 8%;
+  margin-right: 20%;
+  gap: 2%;
+}
+
+.sesam_tekst {
+  margin-top: 10%;
 }
 
 /*****Menu******/
@@ -135,7 +235,7 @@ nav {
 /********* footer ********/
 footer {
   padding-top: 2rem;
-  background-color: #edbcbc5a;
+  margin-top: 4.5%;
 }
 
 .grid_footer {
