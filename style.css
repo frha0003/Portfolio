@@ -31,14 +31,22 @@ h2 {
   color: #d36c08;
 }
 
+/*****OM****/
+
+.om_tekst {
+  margin-left: 22%;
+  top: 15%;
+  position: relative;
+}
 .om_grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 5%;
-  margin-left: 5%;
-  background-image: url(img/ramme.png);
+  gap: 7%;
+  margin-left: 3%;
+  background-image: url(img/ramme.webp);
   background-repeat: no-repeat;
-  background-size: 42%;
+  background-position: 1%;
+  background-size: 55%;
 }
 
 /****UX****/
