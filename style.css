@@ -320,3 +320,76 @@ footer {
   gap: 2%;
   font-family: "Amiri", serif;
 }
+/*******MOBIL*****/
+@media (max-width: 758px) {
+  .overskrift {
+    font-size: 2.2rem;
+    top: 27%;
+  }
+  .h2_overskrift {
+    font-size: 0.7rem;
+    top: 31%;
+  }
+  .h3 {
+    font-size: 0.8rem;
+  }
+  .copy {
+    font-size: 0.8rem;
+    text-align: left;
+    margin-right: 3rem;
+    margin-left: 5rem;
+  }
+
+  .forside {
+    display: flex;
+    flex-direction: column;
+    margin-right: 3rem;
+    margin-left: 5rem;
+  }
+
+  .portfolio_1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .om_grid {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1%;
+  }
+
+  .portraet {
+    width: 50%;
+    height: 50%;
+  }
+  .web_grid {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1%;
+  }
+
+  .ux_grid {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1%;
+  }
+
+  .ux_grid_2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1%;
+  }
+
+  .animation_grid {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1%;
+  }
+
+  .sesam_grid {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1%;
+  }
+}
