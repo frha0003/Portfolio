@@ -14,6 +14,11 @@ h2 {
   font-size: 1.2rem;
 }
 
+p {
+  font-family: "Lato", sans-serif;
+  line-height: 2;
+}
+
 /*****FORSIDE********/
 .forside {
   left: 12%;
@@ -48,7 +53,7 @@ h2 {
   background-image: url(img/ramme.webp);
   background-repeat: no-repeat;
   background-position: -1%;
-  background-size: 55%;
+  background-size: 53.8%;
 }
 
 /****UX****/
@@ -74,10 +79,11 @@ h2 {
   line-height: 1.8;
 }
 
-.ux_billeder {
+.ux_grid_2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin-left: 9%;
+  margin-right: 15%;
   gap: 3%;
   margin-top: 4%;
 }
@@ -134,11 +140,29 @@ h2 {
 
 .animation_tekst {
   margin-left: 4%;
-  top: 1%;
+  top: -6%;
   margin-right: 15%;
   position: relative;
   line-height: 2;
-  margin-bottom: 25%;
+  margin-bottom: 5%;
+}
+.animation_tekst2 {
+  margin-left: 2%;
+  margin-right: 15%;
+  position: relative;
+  line-height: 2;
+}
+
+.tlaloc {
+  position: relative;
+  top: -12%;
+  left: -15%;
+}
+
+.sol {
+  position: relative;
+  top: -230%;
+  left: 145%;
 }
 
 /*****INDHOLD****/
@@ -154,18 +178,21 @@ h2 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 2%;
-  margin-left: 8%;
-  margin-bottom: 15%;
+  margin-left: 22%;
+  margin-bottom: 2%;
 }
 
 .video_tekst {
-  margin-right: 20%;
+  margin-left: 15%;
+  margin-right: 8%;
+  margin-bottom: 10%;
 }
 
 .link_video :hover,
 .link_web :hover,
 .link_animation :hover,
-.link_sesam :hover {
+.link_sesam :hover,
+.link_ux :hover {
   color: #d36c08;
 }
 
@@ -177,8 +204,9 @@ h2 {
   gap: 2%;
 }
 
-.sesam_tekst {
-  margin-top: 10%;
+.sesam_tekst1 {
+  top: -5%;
+  position: relative;
 }
 
 /*****Menu******/
@@ -254,7 +282,7 @@ nav {
 /********* footer ********/
 footer {
   padding-top: 2.5rem;
-  margin-top: 4.5%;
+  margin-top: 4%;
   text-align: center;
 }
 
