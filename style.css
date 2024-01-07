@@ -84,6 +84,21 @@ p {
   background-size: 53.8%;
 }
 
+.cv_grid {
+  margin-top: 5%;
+  margin-left: 40%;
+  background-image: url(img/baggrund.webp);
+  background-repeat: repeat-y;
+  background-position: 50%;
+  background-size: 35%;
+}
+
+ul,
+li {
+  line-height: 2;
+  font-family: "Lato", sans-serif;
+}
+
 /****UX****/
 .tekst_ux {
   margin-left: 4%;

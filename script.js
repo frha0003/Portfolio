@@ -1,8 +1,6 @@
-document.addEventListener("DOMContentLoaded", function () {
-  const burgerMenu = document.querySelector(".burger-menu");
-  const nav = document.querySelector(".menu");
-
-  burgerMenu.addEventListener("click", function () {
-    nav.classList.toggle("active");
-  });
-});
+function rotateStjerne() {
+  console.log("Function called");
+  const stjerne = document.getElementById("Stjerne");
+  stjerne.style.transition = "transform 1s ease-in-out";
+  stjerne.style.transform = "rotate(360deg)";
+}
