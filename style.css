@@ -93,8 +93,11 @@ p {
 
 .om_tekst {
   margin-left: 18%;
-  top: 8%;
+  top: 9.5%;
   position: relative;
+
+  font-size: 0.94srem;
+  font-family: "Lato", sans-serif;
   line-height: 2;
 }
 .om_grid {
@@ -102,10 +105,10 @@ p {
   grid-template-columns: 1fr 1fr;
   gap: 7%;
   margin-left: 3%;
-  background-image: url(img/ramme.webp);
+  background-image: url(assets/ramme.svg);
   background-repeat: no-repeat;
-  background-position: -1%;
-  background-size: 53.8%;
+  background-position: 7.5%;
+  background-size: 48.5%;
 }
 
 .cv_grid {
@@ -344,18 +347,20 @@ li {
 }
 
 /*****Menu******/
-.navbar {
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.nav {
   display: flex;
   align-items: center;
-  position: static;
-  padding: 10px 20px;
-  justify-content: space-between;
-  font-family: "Amiri", serif;
-  font-size: 1.5rem;
 }
 
 .logo img {
-  width: 80px;
+  width: 70px;
 }
 
 .menu {
@@ -363,64 +368,86 @@ li {
   list-style: none;
   margin: 0;
   padding: 0;
-  justify-content: flex-end;
-  align-items: center;
-  font-family: "Amiri", serif;
 }
 
 .menu li {
-  margin-left: 10px;
+  margin-right: 20px;
+}
+
+.menu li:last-child {
+  margin-right: 0;
 }
 
 .menu a {
+  display: block;
   padding: 10px;
   color: #7a0909;
   text-decoration: none;
   font-family: "Amiri", serif;
   transition: color 0.3s;
-}
-
-menu li a {
-  display: block;
+  font-size: 1.5rem;
+  text-align: end;
 }
 
 .menu a:hover {
   color: #d36c08;
 }
 
-@media (max-width: 800px) {
+.burger {
+  width: 30px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.burger .line {
+  width: 100%;
+  height: 2px;
+  background-color: #7a0909;
+  margin-bottom: 5px;
+  transition: 0.2s linear;
+}
+.burger {
+  display: none;
+}
+
+@media screen and (max-width: 800px) {
   .menu {
     display: none;
-    flex-direction: column;
+  }
+
+  .burger {
+    display: block;
+  }
+
+  .burger.active .line:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+    transition: 0.2s linear;
+  }
+
+  .burger.active .line:nth-child(2) {
+    opacity: 0;
+    transition: 0.15s linear;
+  }
+
+  .burger.active .line:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
+    transition: 0.2s linear;
+  }
+  nav.active .menu {
+    display: block;
     position: absolute;
-    align-items: center;
-    width: 100%;
-    top: 45px;
+    top: 60px;
     left: 0;
+    width: 100%;
     z-index: 1;
   }
 
-  /* Vis menuen, når klassen "active" tilføjes til burgermenuknappen */
-  .menu-btn.active + .menu,
-  .menu.active {
-    display: flex;
-  }
-  .menu-btn {
-    cursor: pointer;
-    display: flex;
-    flex-direction: column;
-  }
-  .menu li {
-    margin-right: 0;
-    margin-bottom: 0;
+  nav.active .menu li {
+    margin: 10px 20px;
   }
 
-  .bar {
-    width: 30px;
-    height: 3px;
-    background-color: rgb(156, 17, 17);
-    margin: 3px 0;
-    transition: 0.4s;
+  nav.active .menu a {
+    font-size: 24px;
   }
 }
 /********* footer ********/

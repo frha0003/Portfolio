@@ -1,8 +1,16 @@
-document.addEventListener("DOMContentLoaded", function () {
-  const menuBtn = document.querySelector(".menu-btn");
-  const menu = document.querySelector(".menu"); // Brug ".menu" i stedet for "menu"
+const burger = document.querySelector(".burger");
+const nav = document.querySelector("nav");
+const menu = document.querySelector(".menu");
+const links = document.querySelectorAll(".menu li a");
 
-  menuBtn.addEventListener("click", function () {
-    menu.classList.toggle("active");
+burger.addEventListener("click", () => {
+  burger.classList.toggle("active");
+  nav.classList.toggle("active");
+});
+
+links.forEach((link) => {
+  link.addEventListener("click", () => {
+    burger.classList.remove("active");
+    nav.classList.remove("active");
   });
 });

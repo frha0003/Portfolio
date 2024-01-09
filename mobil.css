@@ -1,5 +1,5 @@
 /*******MOBIL*****/
-@media (max-width: 800px) {
+@media screen and (max-width: 800px) {
   h1 {
     font-size: 2.2rem;
     top: 27%;
@@ -45,6 +45,7 @@
   .om_grid {
     display: block;
     margin-left: -26%;
+    background-image: none;
   }
 
   .cv_grid {
@@ -101,7 +102,7 @@
 
 /***IPAD****/
 
-@media (max-width: 1080px) {
+@media screen and (max-width: 1080px) {
   h1 {
     font-size: 2.3rem;
     top: 27%;
@@ -125,7 +126,7 @@
 
   .hoppestjerne {
     width: 15%;
-    top: 15%;
+    top: 13%;
   }
 
   .web_grid {
@@ -172,6 +173,7 @@
   .om_grid {
     display: block;
     margin-left: -26%;
+    background-image: none;
   }
 
   .cv_grid {
