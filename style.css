@@ -74,11 +74,14 @@ p {
   animation-timing-function: linear;
 }
 @keyframes pulse_kf {
-  100% {
-    scale: 0.8;
+  0% {
+    transform: scale(0.95);
+  }
+  70% {
+    transform: scale(1);
   }
   100% {
-    scale: 0.8;
+    transform: scale(0.95);
   }
 }
 
@@ -107,7 +110,7 @@ p {
   margin-left: 3%;
   background-image: url(assets/ramme.svg);
   background-repeat: no-repeat;
-  background-position: 7.5%;
+  background-position: 8.5%;
   background-size: 47%;
 }
 
