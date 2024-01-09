@@ -162,8 +162,14 @@ li {
 /****UX****/
 .tekst_ux {
   margin-left: 4%;
-  top: 20%;
+  top: -3%;
   margin-right: 20%;
+  position: relative;
+  line-height: 2;
+}
+
+.tekst_ux2 {
+  top: -5%;
   position: relative;
   line-height: 2;
 }
