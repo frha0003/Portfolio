@@ -108,7 +108,7 @@ p {
   background-image: url(assets/ramme.svg);
   background-repeat: no-repeat;
   background-position: 7.5%;
-  background-size: 48.5%;
+  background-size: 47%;
 }
 
 .cv_grid {
@@ -293,18 +293,6 @@ li {
   position: relative;
   line-height: 2;
   font-family: "Lato", sans-serif;
-}
-
-.tlaloc {
-  position: relative;
-  top: -12%;
-  left: -15%;
-}
-
-.sol {
-  position: relative;
-  top: -230%;
-  left: 145%;
 }
 
 /*****INDHOLD****/
