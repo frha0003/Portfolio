@@ -1,0 +1,187 @@
+/*******MOBIL*****/
+@media (max-width: 800px) {
+  h1 {
+    font-size: 2.2rem;
+    top: 27%;
+    margin-bottom: 4%;
+  }
+  h2 {
+    font-size: 1rem;
+    top: 31%;
+    margin-left: 10%;
+  }
+
+  p {
+    font-size: 1rem;
+    margin-left: 2rem;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  .forside {
+    display: block;
+    margin-left: 1%;
+  }
+
+  .forside_grid {
+    display: block;
+    margin-left: 1%;
+  }
+
+  .hoppestjerne {
+    width: 15%;
+    top: 22%;
+  }
+
+  .portfolio_1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .om_grid {
+    display: block;
+    margin-left: -26%;
+  }
+
+  .cv_grid {
+    margin-left: -2%;
+  }
+
+  .portraet {
+    width: 70%;
+    height: auto;
+    margin-left: 26%;
+  }
+
+  .web_grid {
+    display: block;
+    margin-left: 1%;
+  }
+
+  .ux_grid {
+    display: block;
+    margin-left: 1%;
+  }
+
+  .ux_grid_2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1%;
+  }
+
+  .animation_grid,
+  .forside_04,
+  .tlaloc,
+  .animation_tekst2 {
+    display: block;
+    margin-left: 6%;
+  }
+
+  .sesam_grid {
+    display: block;
+    margin-left: 10%;
+  }
+
+  .indhold,
+  .video_grid {
+    display: block;
+    margin-left: 5%;
+  }
+
+  .grid_footer {
+    font-size: 0.9rem;
+    display: block;
+    margin-left: 5%;
+  }
+}
+
+/***IPAD****/
+
+@media (max-width: 1080px) {
+  h1 {
+    font-size: 2.3rem;
+    top: 27%;
+    margin-bottom: 4%;
+  }
+  h2 {
+    font-size: 1.5rem;
+    top: 31%;
+    margin-left: 10%;
+  }
+
+  p {
+    font-size: 1rem;
+    margin-left: 2rem;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  .hoppestjerne {
+    width: 15%;
+    top: 18%;
+  }
+
+  .web_grid {
+    display: block;
+    margin-left: 1%;
+    margin-top: 1%;
+  }
+
+  .ux_grid {
+    display: block;
+    margin-left: 1%;
+  }
+
+  .ux_grid_2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1%;
+  }
+
+  .animation_grid,
+  .tlaloc,
+  .animation_tekst2 {
+    display: block;
+    margin-left: 6%;
+  }
+
+  .forside_04 {
+    display: block;
+    margin-left: 1%;
+  }
+
+  .sesam_grid {
+    display: block;
+    margin-left: 10%;
+  }
+
+  .indhold,
+  .video_grid,
+  .sesam_style,
+  .sesam_mood {
+    display: block;
+    margin-left: 1%;
+  }
+  .om_grid {
+    display: block;
+    margin-left: -26%;
+  }
+
+  .cv_grid {
+    margin-left: 26%;
+  }
+
+  .portraet {
+    width: 70%;
+    height: auto;
+    margin-left: 26%;
+    margin-top: 3%;
+  }
+}
