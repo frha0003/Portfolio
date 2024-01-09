@@ -42,7 +42,9 @@ p {
   color: #d36c08;
 }
 
-/***bevæg billede ved hover***/
+/***bevæg billede ved hover, 
+denne effekt var jeg lidt i tvivl om og derfor søgte jeg på nettet for at gøre det korrekt:)
+Jeg fandt et godt svar på stackoverflow.com***/
 .forside1_1,
 .forside1_2 {
   position: relative;
@@ -96,9 +98,9 @@ p {
 
 .om_tekst {
   margin-left: 17.2%;
-  top: 8.5%;
+  top: 10.5%;
   position: relative;
-
+  margin-right: 3%;
   font-size: 0.94rem;
   font-family: "Lato", sans-serif;
   line-height: 2;
@@ -111,7 +113,7 @@ p {
   background-image: url(assets/ramme.svg);
   background-repeat: no-repeat;
   background-position: 8.5%;
-  background-size: 47%;
+  background-size: 45%;
 }
 
 .cv_grid {
@@ -241,7 +243,9 @@ li {
   color: #d36c08;
 }
 
-/***bevæg billede ved hover***/
+/***bevæg billede ved hover
+denne effekt var jeg lidt i tvivl om og derfor søgte jeg på nettet for at gøre det korrekt:)
+Jeg fandt et godt svar på stackoverflow.com***/
 .portfolio1_1,
 .portfolio1_2,
 .portfolio1_3,
@@ -343,7 +347,9 @@ li {
   position: relative;
 }
 
-/*****Menu******/
+/*****Menu
+denne menu har jeg taget fra nogle tidligere små øvelser vi lavede i tema 03
+så har jeg naturligvis tilpasset den osv!******/
 
 header {
   display: flex;
