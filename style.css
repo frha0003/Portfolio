@@ -3,9 +3,9 @@ html {
 }
 h1 {
   color: #7a0909;
-  font-family: "Amiri", serif;
+  font-family: "Diphylleia", serif;
   font-size: 4rem;
-  margin-left: 5%;
+
   text-align: center;
 }
 h2 {
@@ -21,23 +21,22 @@ p {
 
 /*****FORSIDE********/
 .forside {
-  grid-template-rows: 1fr 1fr;
-  left: 12%;
-  position: absolute;
-  margin-bottom: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .forside_grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   text-align: center;
-  margin-top: 52%;
+  margin-top: 3%;
 }
 
 .forside_tekst {
   text-align: center;
   position: relative;
-  margin-top: 10%;
+  margin-top: 5%;
 }
 
 .forside_grid :hover {
@@ -52,7 +51,7 @@ p {
 }
 
 .portfoliokoala {
-  transition: transform 0.4s ease-out;
+  transition: transform 0.6s ease-out;
 }
 
 .forside1_1 :hover .portfoliokoala {
@@ -65,12 +64,12 @@ p {
 
 .hoppestjerne {
   z-index: 1;
-  top: 87%;
-  left: 37%;
-  position: relative;
+  top: 26%;
+  left: 40%;
+  position: absolute;
   cursor: pointer;
   animation-name: pulse_kf;
-  animation-duration: 1s;
+  animation-duration: 0.6s;
   animation-direction: alternate;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
@@ -220,11 +219,15 @@ li {
   display: grid;
   grid-template-columns: 1fr 1fr;
   text-align: center;
+  text-decoration: none;
+}
+
+.portfolio_1 a {
+  text-decoration: none;
 }
 
 .portfolio_1 :hover {
   color: #d36c08;
-  text-decoration: none;
 }
 
 /********ANIMATION********/
@@ -332,7 +335,7 @@ header {
   align-items: flex-end;
   padding: 30px;
   font-family: "Amiri", serif;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 
 .menu {
@@ -341,6 +344,7 @@ header {
   margin: 0;
   padding: 0;
   text-align: end;
+  font-family: "Amiri", serif;
 }
 
 .menu li {
@@ -351,6 +355,7 @@ header {
   padding: 10px;
   color: #7a0909;
   text-decoration: none;
+  font-family: "Amiri", serif;
   transition: color 0.3s;
   text-align: end;
 }
