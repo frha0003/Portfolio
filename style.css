@@ -63,7 +63,7 @@ p {
 
 .hoppestjerne {
   z-index: 1;
-  top: 26%;
+  top: 20%;
   left: 40%;
   position: absolute;
   cursor: pointer;
@@ -228,6 +228,33 @@ li {
 .portfolio_1 :hover {
   color: #d36c08;
 }
+
+/***bevæg billede ved hover***/
+.portfolio1_1,
+.portfolio1_2,
+.portfolio1_3,
+.portfolio1_4 {
+  position: relative;
+  overflow: hidden;
+}
+
+.portfoliokoala {
+  transition: transform 0.6s ease-out;
+}
+
+.portfolio1_1 :hover .portfoliokoala {
+  transform: translate(5px, 5px);
+}
+.portfolio1_2 :hover .portfoliokoala {
+  transform: translate(5px, 5px);
+}
+.portfolio1_3 :hover .portfoliokoala {
+  transform: translate(5px, 5px);
+}
+.portfolio1_4 :hover .portfoliokoala {
+  transform: translate(5px, 5px);
+}
+/******/
 
 /********ANIMATION********/
 
